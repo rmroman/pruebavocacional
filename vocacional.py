@@ -81,7 +81,7 @@ if st.session_state.finalizado:
     perfil_final = max(conteo, key=conteo.get)
 
     st.success("✅ Test completado.")
-    st.markdown(f"### 🔎 Tu perfil vocacional dominante es: **{perfil_final.title()}**")
+    st.markdown(f"### 🔎 Tu perfil vocacional DOMINANTE es: **{perfil_final.title()}**")
     st.info(recomendaciones[perfil_final])
 
     st.subheader("📋 Respuestas seleccionadas:")
